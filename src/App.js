@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <p>The greeting is</p>
-      <Greeting />
+      <Greeting name="satish" age="42"/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
