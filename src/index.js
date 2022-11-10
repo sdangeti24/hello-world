@@ -30,26 +30,27 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // </div>
 
 //Version 3
-const mainDiv = <div id="main" className='firstDiv'>
-  <p>This is the first Paragraph</p>
-  <p>This is the second Paragraph</p>
-  <ul>
-   <li>item 1 </li>
-   <li>item 2 </li>
-   <li>item 3 </li>
-   <label htmlFor='firstName'>First name</label>
-   <input id="firstName" type="text" required="true" />
- </ul>
-</div>
+// const mainDiv = <div id="main" className='firstDiv'>
+//   <p>This is the first Paragraph</p>
+//   <p>This is the second Paragraph</p>
+//   <ul>
+//    <li>item 1 </li>
+//    <li>item 2 </li>
+//    <li>item 3 </li>
+//    <label htmlFor='firstName'>First name</label>
+//    <input id="firstName" type="text" required="true" />
+//    <p> The total of 7+9 is {7 + 9} </p>
+//  </ul>
+// </div>
 
 
-root.render(mainDiv);
+// root.render(mainDiv);
 
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
